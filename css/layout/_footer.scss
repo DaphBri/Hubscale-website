@@ -1,0 +1,29 @@
+
+footer.big-wrap {
+    padding:50px 30px 40px;
+}
+.footer-wrapper{
+    @include flexBox-row();
+    width:100%;
+    .copywrite {
+        width: 50%;
+    }
+    .contact {
+        width: 50%;
+    }
+    padding-bottom:30px;
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-wrapper {
+    .body-texte{
+        padding:5px 0;
+    }
+    a{
+        padding-top: 8px;
+    }
+}
